@@ -38,7 +38,6 @@ header h1 {
   margin: 0 10px 10px 0;
   float: left;
 }
-
 .information .type {
   display: inline;
   background-color: #E35A4D;
@@ -49,6 +48,14 @@ header h1 {
 
 .description {
   clear: left;
+}
+.description img:hover {
+  opacity: .5;
+  /* transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 1s  */
+  transition: opacity 1s ease 0s;
 }
 
 .content {
